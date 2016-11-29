@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b740de-fc80-48fa-a776-d34197cf9520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/SirendiaShop.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/58ee7d25-e601-4187-a688-c78488278520.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/58ee7d25-e601-4187-a688-c78488278520/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Configs/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Configs/routes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Controllers/ErrorController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Controllers/MainController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/Application.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/Exceptions/RouterNotFoundRouteException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/FileManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/Template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Core/View.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Models/ErrorModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Models/MainModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Views/ErrorView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Views/MainView.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Views/Templates/ErrorView/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Views/Templates/MainView/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -603,26 +560,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480443999793</updated>
-      <workItem from="1480444001223" duration="9733000" />
+      <workItem from="1480444001223" duration="9873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9733000" />
+    <option name="totallyTimeSpent" value="9873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1030" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22312139" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46127167" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17895879" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2537961" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
