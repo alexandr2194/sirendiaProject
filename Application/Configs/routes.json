@@ -5,5 +5,24 @@
       "/main"
     ],
     "controller": "MainController"
+  },
+  "board": {
+    "patterns": [
+      "/boards",
+      "/boards/*"
+    ],
+    "controller": "BoardController"
+  },
+  "enter": {
+    "patterns": [
+      "/enter"
+    ],
+    "controller": "EnterController"
+  },
+  "registration": {
+    "patterns": [
+      "/registration"
+    ],
+    "controller": "RegistrationController"
   }
 }

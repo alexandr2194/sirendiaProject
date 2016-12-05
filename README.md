@@ -1,2 +1,0 @@
-# sirendia
-Internet Shop Project

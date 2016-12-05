@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: "Agency FB", serif;
+}
+
+.header {
+    background: #ff6c6c;
+}
+
+.content {
+    background: #c8fffb;
+    position: absolute;
+}
+
+.btn {
+    color: #0088ff;
+    text-decoration-line: none;
+    font-size: 3em;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ff2828;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    background: #ffc1c1;
+    cursor: pointer;
+    display: table-cell;
+    margin-left: 10px;
+}
+
+#buttons {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 100px;
+    display: table;
+    border-spacing: 20px;
+    position: absolute;
+    left: 20%;
+    z-index: 10;
+}
+
+.tr {
+    height: 150%;
+    width: 80%;
+    background: darkgray;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 70%;
+    left: -15%;
+    z-index: auto;
+}
+
+.tr .line {
+    white-space: nowrap;
+}
+
+.tr .line .square {
+    display: table-cell;
+    background: white;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+}
+
+.tr#left {
+    top: 88%;
+    left: -3%;
+    z-index: 2;
+}
+
+.tr#right {
+    left: 24%;
+    top: 76%;
+    background: #929292;
+    z-index: 1;
+}
+
+.tr#center {
+    background: #777373;
+    left: 12%;
+    top: 73%;
+    z-index: 0;
+}
+
+.tree {
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    left: 56%;
+    top: 87%;
+    z-index: 1;
+}
+
+.trunk {
+    height: 80%;
+    width: 10px;
+    background: #a5582a;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.list {
+    position: relative;
+    box-shadow: -19px 87px 125px 29px rgba(0, 0, 0, 0.05);
+}
+
+
+.fLevel {
+    z-index: 2;
+}
+.fLevel:after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    bottom: -25px;
+    border: 25px solid transparent;
+    border-bottom: 45px solid #65ac97;
+}
+.sLevel{
+    z-index: 1;
+}
+.sLevel:after {
+    content: '';
+    position: absolute;
+    left: -19px;
+    bottom: -49px;
+    border: 35px solid transparent;
+    border-bottom: 55px solid #65ac97;
+}
+.tLevel{
+    z-index: 0;
+}
+.tLevel:after {
+    content: '';
+    position: absolute;
+    left: -30px;
+    bottom: -77px;
+    border: 45px solid transparent;
+    border-bottom: 65px solid #65ac97;
+}

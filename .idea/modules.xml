@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SirendiaShop.iml" filepath="$PROJECT_DIR$/.idea/SirendiaShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SirendiaTasker.iml" filepath="$PROJECT_DIR$/.idea/SirendiaTasker.iml" />
     </modules>
   </component>
 </project>

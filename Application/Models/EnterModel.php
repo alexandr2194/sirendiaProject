@@ -4,11 +4,11 @@ namespace Application\Models;
 use Application\Core\Model;
 
 /**
- * Class MainModel
+ * Class EnterModel
  *
  * @package Application\Models
  */
-class MainModel extends Model
+class EnterModel extends Model
 {
     /**
      * @return array
@@ -16,7 +16,7 @@ class MainModel extends Model
     public function getData(): array
     {
         return [
-            'body' => "Main page"
+            'body' => "Enter page"
         ];
     }
 }

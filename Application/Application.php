@@ -1,8 +1,10 @@
 <?php
-namespace Application\Core;
+namespace Application;
 
 use Application\Controllers\ErrorController;
+use Application\Core\Controller;
 use Application\Core\Exceptions\RouterNotFoundRouteException;
+use Error;
 use Exception;
 
 /**
@@ -32,7 +34,11 @@ class Application
             $controller = self::getController($route['controller']);
             $controller->action($server, $request);
         } catch (RouterNotFoundRouteException $exception) {
-            (new ErrorController())->action($server, ['error_message' => "404 page not found"]);
+            (new ErrorController())->action($server, ['error_message' => $exception->getMessage()]);
+        } catch (Exception $exception) {
+            (new ErrorController())->action($server, ['error_message' => $exception->getMessage()]);
+        } catch (Error $error) {
+            (new ErrorController())->action($server, ['error_message' => $error->getMessage()]);
         }
     }
 
@@ -63,14 +69,15 @@ class Application
      */
     private static function getRoute(string $url): array
     {
-        self::$allRoutes = self::getAllRoutes(dirname(__DIR__) . "/Configs/routes.json");
+        self::$allRoutes = self::getAllRoutes(__DIR__ . "/Configs/routes.json");
         foreach (self::$allRoutes as $route) {
             foreach ($route['patterns'] as $pattern) {
                 $pattern = str_replace('/', '\/', $pattern);
                 if (preg_match('/\*$/', $pattern)) {
-                    $pattern = '/' . $pattern . '/';
+                    $pattern = str_replace('*', '[a-z0-9]*$', $pattern);
+                    $pattern = '/^' . $pattern . '/';
                 } else {
-                    $pattern = '/' . $pattern . '$/';
+                    $pattern = '/^' . $pattern . '$/';
                 }
                 if (preg_match($pattern, $url)) {
                     return $route;

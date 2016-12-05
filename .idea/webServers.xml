@@ -2,12 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="899dd054-1789-42fb-9c10-6c54c3ce3780" name="vagrant" url="http://192.168.7.7">
-        <fileTransfer host="192.168.7.7" port="22" rootFolder="/home/vagrant/www" accessType="SFTP">
+      <webServer id="242c2e18-47ee-47b5-b7d4-9bf0f7b76b4d" name="vagrant" url="http://192.168.33.10">
+        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/code" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
+          <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
     </option>

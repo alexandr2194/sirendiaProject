@@ -1,1 +1,1 @@
-{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"D:/PhpStormProjects/SirendiaShop","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/PhpStormProjects/SirendiaTasker","disabled":false,"__vagrantfile":true}}}
